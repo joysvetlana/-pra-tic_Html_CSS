@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Svetlana Shevelieva" >
+    <meta name="description" content="test site ">
+    <meta name="keywords" content="test, html, practice ">
+    <link href="css/css_styles.css" rel="stylesheet" type="text/css">
+    <title>site</title>
+</head>
+<body>
+
+<h1><em>Welcome to my site </em></h1>
+
+<!--links at page -->
+
+<a href="mailto:joy.svetlana@gmail.com"> write me a letter </a> <br />
+
+<!--images at page-->
+
+<img src="https://i.pinimg.com/originals/25/90/a1/2590a1a6759841581e6e1ed7fc91376d.jpg" width="500px" height="auto" title="pointed at me" alt="flowers">
+<img src="img/cat.jpg" alt="cat">
+
+<!--table-->
+
+<table border="1" width="500px">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>surname </th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        <tr>
+            <td>John 1</td>
+            <td>Dole</td>
+        </tr>
+        <tr>
+            <td>John 2</td>
+            <td>Dole</td>
+        </tr>
+        <tr>
+            <td>John 3</td>
+            <td>Dole</td>
+        </tr>
+        <tr>
+            <td>John 4</td>
+            <td>Dole</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+           <td>last</td>
+            <td>one</td>
+        </tr>
+    </tfoot>
+</table>
+
+<!--block elements-->
+
+<div>some <span>text</span> </div>
+<div>some text </div><br />
+
+<!--form-->
+
+<form action="" method="post">
+    <label for="user_name"> Print your name</label><br />
+   <!-- input text-->
+    <input type="text" placeholder="enter text" value="some name" maxlength="8" name="user_name" id= "user_name"><br />
+    <br />
+  <!-- input password-->
+    <label for="password"> Enter password</label><br />
+    <input type="password" placeholder="enter text" value="password" maxlength="8" name="password" id= "password" ><br />
+    <br />
+    <label for="email">Enter email</label><br />
+    <input type="email" placeholder="enter text" value="email" maxlength="10" name="email" id= "email" ><br />
+    <br />
+    <label for="color">Choose color</label><br />
+    <input type="color" name="color" id = "color" ><br />
+    <br />
+    <label for="date">Сhoose date</label><br />
+    <input type="date" name="date" id = "date" ><br />
+    <br />
+   <!-- various symbols  type="checkbox"-->
+    <label for="checkbox">Give consent</label>
+    <input type="checkbox" name="checkbox" id = "checkbox" ><br />
+    <br />
+   <!--Сhoose Male/Female type="radio"-->
+    <label for="male">Male</label>
+    <input type="radio" name="state" id="male" ><br />
+    <br />
+    <label for="female">Female</label>
+    <input type="radio" name="state" id="female" ><br />
+    <br />
+   <!-- type="file"-->
+    <label for="file">Сhoose file please</label><br />
+    <br />
+    <input type="file" name="file" id="file" ><br />
+    <br />
+    <label for="search"></label><br />
+    <br />
+    <input type="search" name="search" id="search" ><br />
+    <br />
+  <!--buttons-->
+    <input type="button">
+    <input type="submit" value="send">
+    <input type="reset" value="clear">
+    <br />
+    <!--teg to enter text + button-->
+    <label for="textarea"></label>
+    <textarea placeholder="Print your text " maxlength="100" name="" id="textarea">
+       Our online English classes feature lots of useful learning materials and activitiesto help you develop your reading skills with confidence in a safe and inclusivelearning environment.
+    </textarea>
+    <br/><br/>
+<button type="reset">Press me</button>
+</form>
+<!--select-->
+<form>
+    <label>
+        <select multiple size="2">
+            <option disabled selected>-&#45;&#45;</option>
+            <option>apple</option>
+            <option>peach</option>
+            <option >pear</option>
+        </select>
+    </label>
+</form>
+<!--special html tags-->
+<header>site head</header>
+<main>body sate</main>
+<aside>side of the site</aside>
+<footer>footer of the site</footer>
+<!--progress bar-->
+<progress max="100" value="10">
+    loading by 10%
+</progress>
+<!--detailed-->
+<details>
+    <summary>detailed</summary>
+    Lorem ipsum dolor sit amet,
+    consectetur adipisicing elit.
+    Adipisci maiores mollitia praesentium?
+    At corporis dolores expedita nam nemo reprehenderit, sequi.
+</details>
+
+<br/>
+</body>
+</html>
